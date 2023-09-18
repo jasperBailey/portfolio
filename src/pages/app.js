@@ -1,10 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './app.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="app-header">
+        <p>hi</p>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+
+{/* <header className="App-header">
         <p>
           Hi there! I'm Jasper, and currently working on making this portfolio website a bit better. As of 30th August 2023, it's a little quick and dirty at the moment, but check back in a few days to see what I've done with the place! Currently I'm working on migrating my previously locally hosted projects to being web hosted so you can have a look and play around with them.
         </p>
@@ -25,9 +34,4 @@ function App() {
 
           It uses a React front-end, with a mix of regular CSS sheets and Styled Components. The back-end is an Express.js server with a REST API, connected to a PostgreSQL database. I haven't yet started hosting the back-end as I need to modify it to work with the web-hosted front-end!
         </p>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+      </header> */}
