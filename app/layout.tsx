@@ -2,8 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
-import Footer from "../components/organisms/Footer"
-import Header from "../components/organisms/Header"
+import Profile from '@/components/organisms/Profile'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,15 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"flex flex-col min-h-screen justify-between items-center " + inter.className}>
+      <body className={"flex flex-col items-center justify-between lg:flex-row " + inter.className}>
 
-        <Header/>
-
+        <Profile/>
+        
         <section>
           {children}
         </section>
-
-        <Footer/>
         
       </body>
     </html>
