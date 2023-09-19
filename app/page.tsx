@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
-      <p>main content</p>
+      <p>Look at GitHub instead for the moment! Project previews in progress!</p>
         {/*
         <p>
           Unfortunately they changed the rate limit for the Taddy Podcast API after we made this - so if the search stops working, then I'm sorry! Too many people must be looking at it, and I don't want to buy a more expensive API key.
