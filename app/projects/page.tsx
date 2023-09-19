@@ -1,5 +1,5 @@
 const Projects = () => {
-  return <p>projects</p>;
+  return <p>Look at GitHub instead! Project previews in progress!</p>;
 };
 
 export default Projects;

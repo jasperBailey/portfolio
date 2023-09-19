@@ -18,13 +18,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"flex flex-col items-center justify-between lg:flex-row " + inter.className}>
+      <body className={"lg:flex lg:justify-between lg:flex-row lg:py-0 lg:px-24 px-6 py-12 min-h-screen max-w-screen-xl mx-auto text-slate-400 " + inter.className}>
 
         <Profile/>
         
-        <section>
+        <main className="flex flex-col justify-between py-12 lg:py-24 lg:min-h-screen lg:w-1/2" >
           {children}
-        </section>
+          <footer className="text-xs max-w-sm text-slate-500 mt-3">
+            <p>
+              Website built in Visual Studio Code using Next.js and Tailwind by me, deployed with Vercel.
+            </p>
+          </footer>
+        </main>
         
       </body>
     </html>
