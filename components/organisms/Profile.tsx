@@ -12,10 +12,12 @@ const Profile = () => {
           Full-stack software developer proficient in JavaScript, Python, Java,
           and more. Used to be a physicist.
         </p>
-        <div className="mt-3 hidden lg:block">
-          <img src={process.env.PUBLIC_URL + "me.jpg"} />
-        </div>
+        <div className="mt-12 hidden lg:block max-w-xs">
+          <img className="rounded-[108px]" src={process.env.PUBLIC_URL + "me.jpg"} />
+      </div>
       </section>
+
+      
 
       <Socials />
     </header>
