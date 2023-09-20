@@ -10,15 +10,20 @@ const Profile = () => {
           Full-stack software developer proficient in JavaScript, Python, Java,
           and more. Used to be a physicist.
         </p>
-        <div className="mt-12 hidden lg:block max-w-xs">
-          <img
-            className="rounded-[108px]"
-            src={process.env.PUBLIC_URL + "me.jpg"}
-          />
-        </div>
       </section>
-
-      <Socials />
+      <div
+        className="max-w-xs mt-6 flex flex-col justify-between 
+                  xs:flex-row 
+                  lg:flex-col lg:mt-12"
+        id="image-socials"
+      >
+        <img
+          className=" max-w-[128px] rounded-[46px] mr-4 
+                      lg:max-w-xs lg:rounded-[108px]"
+          src={process.env.PUBLIC_URL + "me.jpg"}
+        />
+        <Socials />
+      </div>
     </header>
   );
 };

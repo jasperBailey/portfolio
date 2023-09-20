@@ -32,7 +32,7 @@ export default function RootLayout({
         <Profile />
 
         <main
-          className="flex flex-col justify-between py-12 \ 
+          className="flex flex-col justify-between py-6 \ 
                     lg:py-24 lg:min-h-screen lg:w-1/2"
         >
           {children}
