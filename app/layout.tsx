@@ -30,7 +30,7 @@ export default function RootLayout({
           {children}
           <footer className="text-xs max-w-sm text-slate-500 mt-3">
             <p>
-              Website built in Visual Studio Code using Next.js and Tailwind by me, deployed with Vercel.
+              Website built in Visual Studio Code using Next.js and Tailwind by me, deployed with Vercel. Icons are from FontAwesome.
             </p>
           </footer>
         </main>

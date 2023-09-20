@@ -9,8 +9,12 @@ const Profile = () => {
           Software Developer
         </h2>
         <p className="max-w-xs mt-3">
-          Full-stack software developer proficient in JavaScript, Python, Java, and more. Used to be a physicist.
+          Full-stack software developer proficient in JavaScript, Python, Java,
+          and more. Used to be a physicist.
         </p>
+        <div className="mt-3 hidden lg:block">
+          <img src={process.env.PUBLIC_URL + "me.jpg"} />
+        </div>
       </section>
 
       <Socials />
