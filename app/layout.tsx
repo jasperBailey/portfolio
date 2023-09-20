@@ -25,15 +25,16 @@ export default function RootLayout({
       <body
         className={
           "lg:flex lg:justify-between lg:flex-row lg:py-0 lg:px-24 \
-          px-6 py-12 min-h-screen max-w-screen-xl mx-auto \
-          text-slate-400 " + inter.className
-        }        
+          px-6 py-12 min-h-screen max-w-screen-xl mx-auto bg-fixed \
+          bg-gradient-to-b from-[#0b203a] to-[#0b1520] text-slate-400 " +
+          inter.className
+        }
       >
         <Profile />
 
         <main
           className="flex flex-col justify-between
-                    lg:py-24 lg:min-h-screen lg:w-1/2"
+                    lg:py-24 lg:min-h-[796px] lg:w-1/2 lg:h-screen"
         >
           {children}
           <footer className="text-xs max-w-sm text-slate-500 mt-3">

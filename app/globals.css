@@ -13,14 +13,3 @@
     @apply text-sm text-slate-200 font-bold my-6 uppercase;
   }
 }
-
-@media screen and (min-width: 1024px){
-  #image-socials {
-    height: calc(100vh)
-  }
-}
-
-body {
-  background: linear-gradient(rgb(11, 32, 58),rgb(11, 21, 32));
-  background-attachment: fixed
-}

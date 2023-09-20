@@ -1,6 +1,6 @@
 import Socials from "../molecules/Socials";
 
-const Profile = () => {
+const Profile:React.FC = () => {
   return (
     <header className="flex flex-col lg:sticky lg:top-0 lg:py-24 lg:w-1/2 lg:max-h-screen lg:justify-between">
       <section>
@@ -14,7 +14,7 @@ const Profile = () => {
       <div
         className="max-w-xs mt-6 flex flex-col justify-between 
                   xs:flex-row 
-                  lg:flex-col lg:mt-12"
+                  lg:flex-col lg:mt-12 lg:h-screen"
         id="image-socials"
       >
         <img
