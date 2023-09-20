@@ -1,7 +1,7 @@
-const ShortProjects = () => {
+const ShortProjects:React.FC = () => {
   return (
     <section>
-      <h1>Projects</h1>
+      <h3>Projects</h3>
       <p className="mt-3">Coming soon!</p>
     </section>
   );

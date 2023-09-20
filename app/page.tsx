@@ -3,7 +3,9 @@ import ShortProjects from "@/components/organisms/ShortProjects";
 export default function Home() {
   return (
     <>
-      <section>
+      <section id="About">
+        <h3 className="lg:hidden">About</h3>
+
         <p className="mb-3">
           Earlier this year I decided to commit to becoming a software developer
           professionally, and undertook a 16-week intensive course with
@@ -18,7 +20,7 @@ export default function Home() {
           solo and as part of a group, using Agile methodology.
         </p>
       </section>
-
+      
       <ShortProjects />
     </>
     /*
