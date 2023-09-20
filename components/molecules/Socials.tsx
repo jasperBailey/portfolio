@@ -4,12 +4,12 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Socials = () => {
   return (
-    <ul className="flex flex-row mt-3">
+    <ul className="flex flex-row mt-12">
       <li className="mr-5">
         <a href="https://www.github.com/jasperBailey">
           <FontAwesomeIcon
             icon={faGithub}
-            size="xl"
+            size="2xl"
             style={{ color: "#E2E8F0" }}
           />
         </a>
@@ -18,7 +18,7 @@ const Socials = () => {
         <a href="mailto:jasperbailey98@gmail.com">
           <FontAwesomeIcon
             icon={faEnvelope}
-            size="xl"
+            size="2xl"
             style={{ color: "#E2E8F0" }}
           />
         </a>
@@ -27,7 +27,7 @@ const Socials = () => {
         <a href="https://www.linkedin.com/in/jasperbailey">
           <FontAwesomeIcon
             icon={faLinkedin}
-            size="xl"
+            size="2xl"
             style={{ color: "#E2E8F0" }}
           />
         </a>
