@@ -1,4 +1,4 @@
-import ShortProjects from "@/components/organisms/ShortProjects";
+import ShortProject from "@/components/organisms/ShortProject";
 
 export default function Home() {
   return (
@@ -20,8 +20,18 @@ export default function Home() {
           solo and as part of a group, using Agile methodology.
         </p>
       </section>
-      
-      <ShortProjects />
+
+      <section>
+        <h3>Projects</h3>
+        <p className="mt-3">Coming soon!</p>
+        <ShortProject
+          title="JobShark"
+          year="2023"
+          summary=""
+          previewImg={process.env.PUBLIC_URL + "jobshark.jpg"}
+          techs={["Next.js", "Vercel"]}
+        />
+      </section>
     </>
     /*
         <p>
