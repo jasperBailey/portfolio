@@ -1,4 +1,4 @@
-import ShortProjects from "@/components/organisms/ShortProjects";
+import ShortProject from "@/components/organisms/ShortProject";
 
 export default function Home() {
   return (
@@ -19,15 +19,43 @@ export default function Home() {
           this was put into practice through some independent projects, both
           solo and as part of a group, using Agile methodology.
         </p>
-      </section>
-      
-      <ShortProjects />
-    </>
-    /*
-        <p>
-          Unfortunately they changed the rate limit for the Taddy Podcast API after we made this - so if the search stops working, then I'm sorry! Too many people must be looking at it, and I don't want to buy a more expensive API key.
 
-          This was originally designed to be locally hosted, as we had only been learning JavaScript for 3 weeks at the time and hadn't covered web hosting yet.
-        </p> */
+        <p>
+          I usually spend my free time hanging out with my partner, making music, running at the track, or playing Dota 2 (sometimes even competitively).
+        </p>
+      </section>
+
+      <section>
+        <h3>Projects</h3>
+        <ShortProject
+          title="Portfolio website"
+          year="2023"
+          summary="You're looking at it! A lot of design inspiration taken from Brittany Chiang, but I built it from scratch completely independently."
+          previewImg={process.env.PUBLIC_URL + "recursion.jpg"}
+          techs={["Next.js", "Vercel", "Tailwind"]}
+        />
+        <ShortProject
+          title="JobShark"
+          year="2023"
+          summary="A Next.js webapp to find jobs, and track your applications, hosted on Vercel. Backend is a Spring Boot API which was hosted on Azure, and an SQL DB hosted on render.com. Both backend and frontend use Auth0 authentication."
+          previewImg={process.env.PUBLIC_URL + "jobshark.jpg"}
+          techs={["JavaScript", "Java", "Next.js", "Spring Boot", "Auth0", "Tailwind", "Vercel", "Azure", "PostgreSQL"]}
+        />
+        <ShortProject
+          title="CodeCast"
+          year="2023"
+          summary="A React webapp to browse, listen to, and collate podcast episodes. Backend is an Express API and a MongoDB database. Also uses the Taddy Podcast API, which has unfortunately changed its free rate limit now..."
+          previewImg={process.env.PUBLIC_URL + "codecast.jpg"}
+          techs={["React", "Express", "MongoDB", "Styled Components"]}
+        />
+        <ShortProject
+          title="The Impractical Beep Boop Maker"
+          year="2023"
+          summary="A basic webapp that lets the user create an mp3 from manually inputted MIDI notes. We were expressly forbidden from using any kind of JavaScript - it's just HTML, a Flask API, and an SQL database."
+          previewImg={process.env.PUBLIC_URL + "tibbm.jpg"}
+          techs={["Python", "Flask", "HTML", "CSS", "PostgreSQL"]}
+        />
+      </section>
+    </>
   );
 }
