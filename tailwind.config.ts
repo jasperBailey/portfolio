@@ -14,6 +14,8 @@ const config: Config = {
       'lg': '960px',
       'xl': '1280px',
       '2xl': '1536px',
+      'short': { 'raw': '(max-height: 800px) and (min-width:960px)' },
+      'vshort': { 'raw': '(max-height: 652px) and (min-width:960px)' },
     }
   },
   plugins: [],

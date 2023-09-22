@@ -5,7 +5,7 @@ import Icon from "../atoms/Icon";
 
 const Socials:React.FC = () => {
   return (
-    <ul className="flex flex-row mt-12">
+    <ul className="flex flex-row mt-12 short:mt-6">
       <Icon href="https://www.github.com/jasperbailey" definition={faGithub}/>
       <Icon href="mailto:jasperbailey98@gmail.com" definition={faEnvelope}/>
       <Icon href="https://www.linkedin.com/in/jasperbailey" definition={faLinkedin}/>

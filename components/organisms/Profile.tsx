@@ -2,7 +2,7 @@ import Socials from "../molecules/Socials";
 
 const Profile:React.FC = () => {
   return (
-    <header className="flex flex-col lg:sticky lg:top-0 lg:py-24 lg:w-1/2 lg:max-h-screen lg:justify-between">
+    <header className="flex flex-col lg:sticky lg:top-0  lg:py-24 short:py-12 lg:w-1/2 lg:max-h-screen lg:justify-between">
       <section>
         <h1>Jasper Bailey</h1>
         <h2>Software Developer</h2>
@@ -14,11 +14,13 @@ const Profile:React.FC = () => {
       <div
         className="max-w-xs mt-6 flex flex-col justify-between 
                   xs:flex-row 
+                  short:mt-6
                   lg:flex-col lg:mt-12 lg:h-screen"
         id="image-socials"
       >
         <img
-          className=" max-w-[128px] rounded-[46px] mr-4 
+          className=" max-w-[128px] rounded-[43px] mr-4 
+                      vshort:max-w-[240px] vshort:rounded-[81px]
                       lg:max-w-xs lg:rounded-[108px]"
           src={process.env.PUBLIC_URL + "me.jpg"}
         />

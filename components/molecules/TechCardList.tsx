@@ -7,7 +7,7 @@ interface ITechCardList {
 const TechCardList: React.FC<ITechCardList> = ({ techs }) => {
   return (
     <>
-      <ul className="flex flex-row max-w-[544px] flex-wrap items-center justify-start">
+      <ul className="flex flex-row max-w-[58.82353%] flex-wrap items-center justify-start">
         {techs.map((tech, i) => {
           return <TechCard tech={tech} key={i} />;
         })}

@@ -34,6 +34,7 @@ export default function RootLayout({
 
         <main
           className="flex flex-col justify-between
+                    short:py-12
                     lg:py-24 lg:min-h-[796px] lg:w-1/2"
         >
           {children}
