@@ -19,6 +19,10 @@ export default function Home() {
           this was put into practice through some independent projects, both
           solo and as part of a group, using Agile methodology.
         </p>
+
+        <p>
+          I usually spend my free time hanging out with my partner, making music, or playing Dota 2 (sometimes even competitively).
+        </p>
       </section>
 
       <section>
@@ -26,7 +30,7 @@ export default function Home() {
         <ShortProject
           title="Portfolio website"
           year="2023"
-          summary="You're looking at it! MUCH design inspiration taken from Brittany Chiang, but I built it from scratch completely independently."
+          summary="You're looking at it! A lot of design inspiration taken from Brittany Chiang, but I built it from scratch completely independently."
           previewImg={process.env.PUBLIC_URL + "recursion.jpg"}
           techs={["Next.js", "Vercel", "Tailwind"]}
         />
