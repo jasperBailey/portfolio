@@ -34,7 +34,7 @@ export default function RootLayout({
 
         <main
           className="flex flex-col justify-between
-                    lg:py-24 lg:min-h-[796px] lg:w-1/2 lg:h-screen"
+                    lg:py-24 lg:min-h-[796px] lg:w-1/2"
         >
           {children}
           <footer className="text-xs max-w-sm text-slate-500 mt-3">
