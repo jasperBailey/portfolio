@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <p>
-          I usually spend my free time hanging out with my partner, making music, or playing Dota 2 (sometimes even competitively).
+          I usually spend my free time hanging out with my partner, making music, running at the track, or playing Dota 2 (sometimes even competitively).
         </p>
       </section>
 
