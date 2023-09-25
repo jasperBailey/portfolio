@@ -5,6 +5,7 @@ interface IShortProject {
   year: string;
   summary: string;
   previewImg: string;
+  githubUrl: string;
   techs: Array<string>;
 }
 
@@ -13,29 +14,33 @@ const ShortProject: React.FC<IShortProject> = ({
   year,
   summary,
   previewImg,
+  githubUrl,
   techs,
 }) => {
   return (
     <>
-      <div className="flex flex-col justify-center">
-        <h4>{title}</h4>
-        <p className="text-sm">{year}</p>
-      </div>
-
-      <div
-        className="flex flex-col mb-3
-                   lg:flex-row"
-      >
-        <div className="flex max-w-[224px] justify-center bg-black
-                        lg:w-[41.17647%] lg:mr-3"
-        >
-          <img className="max-h-[126px]" src={previewImg} />
+      <a href={githubUrl}>
+        <div className="flex flex-col justify-center">
+          <h4>{title}</h4>
+          <p className="text-sm">{year}</p>
         </div>
-        <TechCardList techs={techs} />
-      </div>
 
-      <p>{summary}</p>
-      <hr className="border-slate-400 my-3 max-w-sm" />
+        <div
+          className="flex flex-col mb-3
+                   lg:flex-row"
+        >
+          <div
+            className="flex max-w-[224px] justify-center bg-black
+                        lg:w-[41.17647%] lg:mr-3"
+          >
+            <img className="max-h-[126px]" src={previewImg} />
+          </div>
+          <TechCardList techs={techs} />
+        </div>
+
+        <p>{summary}</p>
+        <hr className="border-slate-400 my-3 max-w-sm" />
+      </a>
     </>
   );
 };
