@@ -8,7 +8,7 @@ const Profile:React.FC = () => {
         <h2>Software Developer</h2>
         <p className="max-w-xs mt-3">
           Full-stack software developer proficient in JavaScript, Python, Java,
-          and more. Used to be a physicist.
+          and more. Used to do physics.
         </p>
       </section>
       <div
