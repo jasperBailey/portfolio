@@ -33,7 +33,7 @@ export default function Home() {
           <ShortProject
             title="Portfolio website"
             year="2023"
-            summary="You're looking at it! Built from scratch completely independently with a lot of design inspiration taken from Brittany Chiang."
+            summary="You're looking at it! Simple app built from scratch in Next.js, and deployed with Vercel."
             previewImg={process.env.PUBLIC_URL + "recursion.jpg"}
             techs={["Next.js", "Vercel", "Tailwind"]}
             githubUrl="https://github.com/jasperBailey/portfolio"
