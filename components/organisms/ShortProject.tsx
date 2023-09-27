@@ -35,8 +35,8 @@ const ShortProject: React.FC<IShortProject> = ({
                    lg:flex-row"
       >
         <div
-          className="flex max-w-[224px] justify-center bg-black
-                        lg:w-[41.17647%] lg:mr-3"
+          className="flex max-w-[224px] justify-center bg-black mt-3 mb-3 
+                        lg:w-[41.17647%] lg:mr-3 lg:mb-0"
         >
           <img className="max-h-[126px]" src={previewImg} />
         </div>
